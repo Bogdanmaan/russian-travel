@@ -1,0 +1,119 @@
+.place {
+    margin: 0 auto;
+    width: 984px;
+    max-height: 584px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 200px 145px;
+    grid-template-columns: auto auto;
+    gap: 0 40px;
+}
+
+.place:first-child {
+    max-height: 660px;
+}
+
+.place:nth-child(2) {
+    grid-template-rows: 124px 116px;
+}
+
+.place:nth-child(3) {
+    grid-template-rows: 124px 174px;
+}
+
+.place:nth-child(4) {
+    max-height: 660px;
+    grid-template-rows: 200px 116px;
+}
+
+.place:nth-child(5) {
+    grid-template-rows: 124px 145px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        width: 928px;
+        max-height: 564px;
+        grid-template-rows: auto 174px;
+        gap: 0 32px;
+    }
+
+    .place:first-child {
+        max-height: 640px;
+    }
+    
+    .place:nth-child(2) {
+        grid-template-rows: 124px 116px;
+    }
+    
+    .place:nth-child(3) {
+        grid-template-rows: 124px 203px;
+    }
+    
+    .place:nth-child(4) {
+        max-height: 640px; 
+        grid-template-rows: 200px 116px;
+    }
+
+    .place:nth-child(5) {
+        grid-template-rows: 124px 174px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        width: 720px;
+        max-height: 581px;
+        grid-template-rows: 140px 182px;
+        gap: 0 28px;
+    }
+
+    .place:nth-child(2) {
+        min-height: 535px;
+        grid-template-rows: 94px 130px;
+    }
+    
+    .place:nth-child(3) {
+        max-height: 483px;
+        grid-template-rows: 94px 182px;
+    }
+    
+    .place:nth-child(4) {
+        max-height: 434px; 
+        grid-template-rows: 94px 104px;
+    }
+
+    .place:nth-child(5) {
+        max-height: 484px; 
+        grid-template-rows: 94px 182px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        width: 320px;
+        max-height: 1042px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .place:first-child {
+        max-height: 1042px;
+    }
+
+    .place:nth-child(2) {
+        min-height: 1016px;
+    }
+    
+    .place:nth-child(3) {
+        max-height: 990px;
+    }
+    
+    .place:nth-child(4) {
+        max-height: 964px; 
+    }
+
+    .place:nth-child(5) {
+        max-height: 965px;
+    }
+}
