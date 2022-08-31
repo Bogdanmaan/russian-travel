@@ -84,7 +84,7 @@
     }
 
     .place:nth-child(5) {
-        max-height: 484px; 
+        max-height: 484px;
         grid-template-rows: 94px 182px;
     }
 }
