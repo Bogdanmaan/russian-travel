@@ -51,7 +51,7 @@
     }
     
     .place:nth-child(4) {
-        max-height: 640px; 
+        max-height: 640px;
         grid-template-rows: 200px 116px;
     }
 
@@ -79,7 +79,7 @@
     }
     
     .place:nth-child(4) {
-        max-height: 434px; 
+        max-height: 434px;
         grid-template-rows: 94px 104px;
     }
 
