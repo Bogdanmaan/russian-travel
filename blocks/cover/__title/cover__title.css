@@ -2,22 +2,20 @@
     margin: 0;
     padding-bottom: 32px;
     width: 560px;
-    height: 152px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 1.05;
     text-align: center;
     color: #FFFFFF;
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) and (min-width: 0) {
     .cover__title {
-        width: 288px;
-        height: 70px;
+        max-width: 288px;
         font-size: 32px;
-        line-height: 35px;
+        line-height: 1.09;
     }
 }

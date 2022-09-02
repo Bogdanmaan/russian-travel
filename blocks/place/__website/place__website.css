@@ -1,14 +1,12 @@
 .place__website {
     padding-bottom: 48px;
     width: 456px;
-    height: 46px;
     place-self: end start;
 }
 
 @media screen and (max-width: 768px) {
     .place__website {
         width: 325px;
-        height: 46px;
     }
 }
 
@@ -16,7 +14,6 @@
     .place__website {
         padding-bottom: 32px;
         width: 288px;
-        height: 46px;
         margin: 0 auto;
     }
 }
