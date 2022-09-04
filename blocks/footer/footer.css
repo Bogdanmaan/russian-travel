@@ -2,9 +2,10 @@
     margin: 0 auto;
     box-sizing: border-box;
     padding-bottom: 24px;
-    width: 92.5%;
+    max-width: 1184px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 320px) {
@@ -12,7 +13,19 @@
         margin: 0;
         padding: 0;
         padding-left: 16px;
+        max-width: 186px;
         flex-direction: column;
-        width: 186px;
     }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 720px;
+    }  
 }
