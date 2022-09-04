@@ -7,6 +7,17 @@
     gap: 0 18px;
 }
 
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .footer__links {
+        min-width: 186px;
+        box-sizing: border-box;
+        padding-bottom: 48px;
+        gap: 32px 0;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
 @media screen and (max-width: 320px) {
     .footer__links {
         min-width: 186px;
