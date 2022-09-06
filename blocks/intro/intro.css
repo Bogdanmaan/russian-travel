@@ -1,40 +1,25 @@
 .intro {
     margin: 0;
-    max-width: 54%;
-    box-sizing: border-box;
-    position: relative;
-    left: 148px;
-    right: 442px;
+    max-width: 690px;
+    padding-left: 148px;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        max-width: 67%;
-        left: 48px;
-        right: 286px;
+        padding-left: 48px;
     }   
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        margin: 0 auto;
+        padding: 0 24px;
         max-width: 720px;
-        position: static;
     }  
 }
 
-@media screen and (min-width: 321px) and (max-width: 460px) {
+@media screen and (max-width: 400px) {
     .intro {
-        margin: 0 auto;
-        max-width: 288px;
-        position: static;
-    }  
-}
-
-@media screen and (max-width: 320px) {
-    .intro {
-        margin: 0 auto;
-        max-width: 288px;
-        position: static;
+        max-width: 400px;
+        padding: 0 16px;
     }  
 }

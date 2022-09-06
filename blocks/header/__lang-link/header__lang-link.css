@@ -1,17 +1,18 @@
 .header__lang-link {
-    font-family: "Inter";
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 1.15;
     text-align: right;
-    text-decoration-line: underline;
+    text-decoration-line: none;
     color: #FFFFFF;
 }
 
-.header__lang-link:last-of-type {
-    text-decoration-line: none;
-}
+.header__lang-link:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+  }
 
 @media screen and (max-width: 767px) {
     .header__lang-link {

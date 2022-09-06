@@ -4,26 +4,27 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    box-sizing: border-box;
     gap: 0 18px;
 }
 
+@media screen and (max-width: 675px) {
+    .footer__links {
+        padding-bottom: 48px;
+    }
+}
 
 @media screen and (min-width: 321px) and (max-width: 675px) {
     .footer__links {
         min-width: 186px;
-        box-sizing: border-box;
-        padding-bottom: 48px;
         gap: 10px 18px;
-        flex-wrap: wrap;
         justify-content: stretch;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer__links {
-        min-width: 186px;
-        box-sizing: border-box;
-        padding-bottom: 48px;
+        max-width: 186px;
         gap: 32px 0;
         flex-direction: column;
     }
