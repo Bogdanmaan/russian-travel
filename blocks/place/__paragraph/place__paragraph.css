@@ -9,6 +9,14 @@
     color: #FFFFFF;
 }
 
+.place__paragraph:last-of-type {
+    padding-top: 26px;
+}
+
+.place__paragraph:only-of-type {
+    padding-top: 0;
+}
+
 @media screen and (max-width: 1024px) {
     .place__paragraph {
         max-width: 456px;
@@ -17,7 +25,7 @@
     .place__paragraph:last-of-type {
         padding-top: 27px;
     }
-
+    
     .place__paragraph:only-of-type {
         padding-top: 0;
     }
@@ -43,13 +51,5 @@
     .place__paragraph {
         padding: 0 16px;
         max-width: 288px;  
-    }
-
-    .place__paragraph:first-of-type {
-        padding-bottom: 25px;
-    }
-
-    .place__paragraph:last-of-type {
-        padding-top: 0;
     }
 }
